@@ -1,0 +1,13 @@
+.borderCSS{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    /* border-width: 10px;
+    border-color: black ;
+    border-style: dashed; */
+
+    border: 5px dashed rebeccapurple;
+    border-radius: 100px;
+    
+
+}

@@ -1,0 +1,19 @@
+#fontCSS{
+     font-family: 'Poppins', sans-serif; /*from google */
+     font-family: 'Roboto', sans-serif;
+     font-family: 'Source Sans Pro', sans-serif;
+
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*inbuilt*/
+     font-size: larger;
+     font-size: 2em; /* 1em=16p , p=pixel*/
+     font-style: italic;
+     font-weight: 100;  /* we use till 900*/
+     font-variant: small-caps;
+     font-variant: inherit;
+
+     
+     
+
+     
+
+}

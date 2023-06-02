@@ -1,0 +1,90 @@
+// copied code from console
+
+2+3
+5
+var num1=5;
+undefined
+var num2='5';
+undefined
+console.log(num1);
+VM292:1 5
+undefined
+console.log(num2);
+VM318:1 5
+undefined
+console.log(num1)
+VM324:1 5
+undefined
+console.warn(num1);
+VM402:1 5
+(anonymous) @ VM402:1
+undefined
+if(num1=10){
+    console.log("true");
+}else{
+    console.log("false");
+}
+
+    
+VM696:2 true
+undefined
+if(num1=10){
+    console.log('true');
+}else{
+    console.log('false');
+}
+
+VM742:2 true
+undefined
+if(num1==10){
+    console.log("true");
+}else{
+    console.log("false");
+}
+
+VM752:2 true
+undefined
+if(num1==10){
+    console.log('true');
+}else{
+    console.log('false');
+}
+VM764:2 true
+undefined
+if(num1=10){
+    console.log('true');
+}else{
+    console.log('false');
+}
+VM810:2 true
+undefined
+if(num1===num2)
+{}
+undefined
+if(num1===num2)
+{
+    console.log('true');
+}
+else{
+    console.log('false');
+}
+VM1052:6 false
+undefined
+if(num1==num2)
+{
+    console.log('true');
+}
+else{
+    console.log('false');
+}
+VM1117:6 false
+undefined
+if(num1==num2)
+{
+    console.log('false');
+}
+else{
+    console.log('true');
+}
+VM1397:6 true
+undefined

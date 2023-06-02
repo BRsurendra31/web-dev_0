@@ -1,0 +1,41 @@
+.header{
+
+    width: 100% ;
+    height: 80px;
+    background-color: black;
+
+
+}
+
+.logo{
+    width:30% ;
+    line-height: 80px;
+    text-align: center;
+    background-color: orange;
+    float: left;
+
+
+}
+
+.menu{
+    width: 70%;
+    line-height: 80px;
+    text-align: center;
+    background-color:red;
+    float: right;
+
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+}
+
+li{
+    display: inline;   /*inline i.e ek line me*/
+    /* display: block; */
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0 10px;
+
+}
