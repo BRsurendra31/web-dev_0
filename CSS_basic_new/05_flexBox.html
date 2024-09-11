@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexBox</title>
+
+    <style>
+
+        .container{
+            width: 500px;
+            height: 300px;
+            background-color: purple;
+            border-radius: 10px;
+            flex-wrap: wrap;
+            
+        }
+        .container{
+            display: flex;
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse;*/
+             
+            justify-content: center;
+            justify-content: left;
+            justify-content: flex-end;
+            justify-content: flex-start;
+            /* justify-content: space-between; */
+            
+        }
+
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(233, 159, 13);
+            border: 10px solid red;
+            border-radius: 10px ;
+            align-content: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Dsplay : flex</h1>
+
+    <div class="container" id="flex">
+        <br>
+        <div class="box">
+            <h1>1</h1>
+
+        </div> <br>
+        <div class="box">
+            <h1>2</h1>
+
+        </div>
+        <br>
+        <div class="box">
+            <h1>3</h1>
+
+        </div>
+        <div class="box">
+            <h1>4</h1>
+
+        </div>
+        <div class="box">
+            <h1>5</h1>
+
+        </div>
+        <div class="box">
+            <h1>6</h1>
+
+        </div>
+        <div class="box">
+            <h1>7</h1>
+
+        </div>
+        <div class="box">
+            <h1>8</h1>
+
+        </div>
+        
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+.father{
+
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+
+}
+
+.child1{
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+   z-index: 1;
+}
+.child2{
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    z-index: 2;
+
+}
+.child3{
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    position: absolute;
+    z-index: 4;
+    
+
+}
+.child4{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+   z-index: 5;
+}

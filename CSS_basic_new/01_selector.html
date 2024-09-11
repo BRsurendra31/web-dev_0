@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+
+
+
+    <style>
+        
+        p { /* css through tag applied to all contents belongs to that tag */
+            color: red;
+        }
+
+    #p2{ /*applied on particular id of element*/
+        color: blue;
+    }
+
+
+    .cls1{ /* applied on all classes with same attributes*/ 
+       color: aqua;
+    }
+
+    h2, h3, h4{
+        color: blueviolet;
+        background-color:yellow ;
+    }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">  I am learning selectors </h1>
+    <ol> Table of contents :
+        <li>Element selector(tagname)</li>
+        <li>id selector(#idname)</li>
+        <li>class selector(.classname)</li>
+        <li>attribute selector([attribute=value])</li>
+        <li>combination selector(combines multiple selectors)</li>
+            <ul>
+                <li>child selector(parent > child)</li>
+                <li>descendant selector(anscestor descendant)</li>
+                <li>adjacent sibling selector(pre + next)</li>
+                <li>general sibling selector(pre ~ siblings)</li>
+            </ul>
+            
+    </ol>
+
+
+
+
+    
+
+    <p id="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto non suscipit quidem, rem hic beatae laudantium, debitis sint eos, nulla eveniet iusto quos omnis nisi nostrum officiis illo voluptates quasi?</p>
+
+    <p id="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, earum? </p>
+    
+    <div class="cls1">
+        <ul>
+            <li>fdgh</li>
+            <li>qwer</li>
+            <li>qew</li>
+        </ul>
+    </div>
+
+    <div class="las">
+        <ol>
+            <li>this is ordered list</li>
+            <li>this is ordered list</li>
+            <li>this is ordered list</li>
+        </ol>
+    </div>
+
+    <div class="cls1">
+        <ul>
+
+            <li>this is unordered list</li>
+            <li>this is unordered list</li>
+            <li>this is unordered list</li>
+        </ul>
+    </div>
+    <div class="cls1">
+        <ul>
+
+            <li>this is unordered list</li>
+            <li>this is unordered list</li>
+            <li>this is unordered list</li>
+        </ul>
+    </div>
+
+    <h2>hi thre </h2>
+    <h3>by thre </h2>
+    <h4>no thre </h2>
+    
+</body>
+</html>

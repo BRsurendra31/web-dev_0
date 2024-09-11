@@ -1,0 +1,11 @@
+.listCSS{  /* we can also use ul{} direct */
+    list-style-type: square; 
+
+
+}
+
+ol{
+    color: brown;
+    list-style-type: lower-alpha;
+    list-style-type: upper-alpha;
+}
