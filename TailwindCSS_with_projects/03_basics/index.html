@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Bascs</title>
+
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+
+    <!-- <ul class="flex bg-black text-white p-8"> 
+        <li class="flex"><a href="#" class="p-3">Home</a></li>
+        <li class="flex"><a href="#" class="p-3">About</a></li>
+        <li class="flex"><a href="#" class="p-3">Contacts</a></li>
+    </ul> -->
+
+<!-- we can direcly apply flex to it child -->
+    <ul class="flex [&>*]:flex bg-black text-white p-8"> 
+        <li><a href="#" class="p-3">Home</a></li>
+        <li><a href="#" class="p-3">About</a></li>
+        <li><a href="#" class="p-3">Contacts</a></li>
+    </ul>
+    
+</body>
+</html>
