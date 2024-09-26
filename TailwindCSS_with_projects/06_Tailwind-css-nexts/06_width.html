@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Width</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+
+    <div class="bg-blue-600">
+        <h1>By default width is block level, not inline</h1>
+    </div>
+
+    <div class="bg-red-600 w-40">
+        <h1>w-40</h1>
+    </div>
+
+    <div class="bg-yellow-600 max-w-64">
+        <h1>max-w-64</h1>
+    </div>
+
+
+    <div class="bg-green-600 max-w-96">
+        <h1>max-w-96</h1>
+    </div>
+
+    <div class="bg-red-600 min-w-40">
+        <h1>min-w-40</h1>
+    </div>
+    
+    <div class="bg-blue-600 w-40 ">
+        <h1>w-40</h1>
+    </div>
+
+    <div class="bg-yellow-600 w-40 min-w-52 ">
+        <h1>min-w-52</h1>
+    </div>
+
+
+    <div class="bg-green-600 w-1/2">
+        <h1>w-1/2, this is width in %, 1/2 = 50% width</h1>
+    </div>
+
+    <div class="bg-red-600 w-1/3">
+        <h1>w-1/2</h1>
+    </div>
+
+    <div class="bg-yellow-600 w-1/2 hover:w-1/4">
+        <h1>width with hover</h1>
+    </div>
+
+    <div class="bg-green-600 w-fit">
+        <h1>with upto the content</h1>
+    </div>
+    
+    <div class="bg-blue-600 w-fit">
+        <h1>with upto the content ..............</h1>
+    </div>
+
+    <span class="bg-cyan-500 w-1/2 ">span work inline untill we apply block style property </span>
+    <span class="bg-red-400  ">this is content </span>
+    <span class="bg-red-400 block ">this is content, we applied block style </span>
+    
+    <h3 class="bg-pink-400 w-[69px]">custom width with h3, but this is not recommended</h3>
+      
+</body>
+</html>
