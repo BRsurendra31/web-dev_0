@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query and Break points</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="h-screen">
+
+    <!-- Media queries in CSS are used to apply styles based on the device's characteristics (like screen width), it is done using break points.
+
+Breakpoints are predefined screen sizes where layout changes (e.g., mobile, tablet, desktop).
+
+Tailwind's default breakpoints:
+
+sm: 640px (small devices) - means work for screens 640px and wider
+md: 768px (medium devices)
+lg: 1024px (large devices)
+xl: 1280px (extra-large devices)
+2xl: 1536px (bigger screens)
+
+Breakpoint prefix	Minimum width	CSS
+sm	                   640px	@media (min-width: 640px) { ... }
+md	                   768px	@media (min-width: 768px) { ... }
+lg	                   1024px	@media (min-width: 1024px) { ... }
+xl	                   1280px	@media (min-width: 1280px) { ... }
+2xl	                   1536px	@media (min-width: 1536px) { ... } -->
+
+<!-- zoom out to get large screen size for checking -->
+
+    <div class="bg-blue-500 h-full
+     md:bg-green-500
+      lg:bg-red-500
+       xl:bg-black">
+        
+        
+       <h1 class="text-4xl 2xl:text-9xl xl:text-7xl lg:text-6xl md:text-5xl  text-white">surendra</h1>
+
+      </div>
+
+
+
+
+
+
+
+      
+      
+    
+</body>
+</html>

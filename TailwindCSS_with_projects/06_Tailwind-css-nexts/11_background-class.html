@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>backgraound class in tailwind css</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    
+    <div class="bg-green-400 h-96" style="background-image: url(https://images.pexels.com/photos/27741898/pexels-photo-27741898/free-photo-of-model-in-a-long-white-dress-sitting-on-a-meadow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+        <h1 class="text-white">img1</h1>
+    </div>
+
+    <div class="bg-green-400 h-96 bg-no-repeat" style="background-image: url(https://images.pexels.com/photos/27741898/pexels-photo-27741898/free-photo-of-model-in-a-long-white-dress-sitting-on-a-meadow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+        <h1 class="text-white">img2</h1>
+    </div>
+
+    <div class="bg-green-400 h-96 bg-no-repeat bg-[url(https://images.pexels.com/photos/27741898/pexels-photo-27741898/free-photo-of-model-in-a-long-white-dress-sitting-on-a-meadow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)]">
+        <h1 class="text-white">img3</h1>
+    </div>
+    
+    <div class="bg-green-400 h-96 bg-no-repeat bg-center bg-[url(https://images.pexels.com/photos/27741898/pexels-photo-27741898/free-photo-of-model-in-a-long-white-dress-sitting-on-a-meadow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)]">
+        <h1 class="text-white">img4</h1>
+    </div>
+
+    <div class="bg-green-400 h-96 bg-no-repeat bg-cover bg-[url(https://images.pexels.com/photos/27741898/pexels-photo-27741898/free-photo-of-model-in-a-long-white-dress-sitting-on-a-meadow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)]">
+        <h1 class="text-white">img5</h1>
+    </div>
+
+    <div class="bg-green-400 h-96 bg-no-repeat bg-contain mx-auto bg-[url(https://images.pexels.com/photos/27741898/pexels-photo-27741898/free-photo-of-model-in-a-long-white-dress-sitting-on-a-meadow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)]">
+        <h1 class="text-white">img6</h1>
+    </div>
+
+
+    <div class="bg-gradient-to-t to-blue-400 from-red-400 size-96">
+        <h1>gradient to top and from red to blue</h1>
+
+    </div>
+
+    <div class="bg-gradient-to-b to-green-400 from-pink-400 size-96">
+        <h1>gradient to bottom and from pink to green</h1>
+    </div>
+
+    <div class="bg-gradient-to-l to-green-400 from-pink-400 size-96">
+        <h1>gradient to left and from pink to green</h1>
+    </div>
+
+
+    <div class="size-96 m-32 shadow-orange-400 shadow-2xl "></div>
+    <div class="size-96 m-32 shadow-inner shadow-orange-400  shadow-2xl "></div>
+
+
+    
+</body>
+</html>
